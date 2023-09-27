@@ -1,0 +1,69 @@
+{
+  "order": [
+    {
+      "id": "32457XYZ",
+      "supplierId": "223423",
+      "departmentId": "300-444-679",
+      "cardId": "323423",
+      "shippingDate": "2023-09-26T11:42:24Z",
+      "totalOrder": 15028.3,
+      "categories": [
+        {
+          "id": 2,
+          "name": "Meal"
+        },
+        {
+          "id": 2,
+          "name": "Meal"
+        }
+      ],
+      "supplierDetails": {
+        "id": "223423",
+        "supplier_name": "East coast fruits & vegetables"
+      },
+      "orderStatus": "Awating your approval"
+    }
+  ],
+  "products": [
+    {
+      "productName": "Avocado and milk in ice",
+      "brand": "Abukado lamaw",
+      "quantity": 11,
+      "status": "Accepted",
+      "price": 67,
+      "discountPrice": 10.43,
+      "productUnit": "6 * 1LB",
+      "id": 1
+    },
+    {
+      "productName": "Creamy Avocado Smoothie",
+      "brand": "Can Do ‘Cados",
+      "quantity": 10,
+      "status": "Missing - Urgent",
+      "price": 30,
+      "discountPrice": 0,
+      "productUnit": "6 * 1LB",
+      "id": 2
+    },
+    {
+      "productName": "Avocado Tomatillo Breakfast Tacos",
+      "brand": "Well Grown",
+      "quantity": "10",
+      "status": "Missing",
+      "price": 26,
+      "discountPrice": 0,
+      "productUnit": "6 * 1LB",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "productName": "Avocado Tomatillo Breakfast Tacos",
+      "brand": "Well Grown",
+      "quantity": 6,
+      "status": "",
+      "price": 26,
+      "discountPrice": 0,
+      "productUnit": "6 * 1LB"
+    }
+  ]
+}
