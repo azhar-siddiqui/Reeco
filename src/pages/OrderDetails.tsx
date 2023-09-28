@@ -43,6 +43,7 @@ const OrderDetails = () => {
       setEditModal(!editModal);
     }
     if (value === "missing") {
+      console.log(id);
       setMissingModal(!missingModal);
     }
   };
@@ -131,7 +132,7 @@ const OrderDetails = () => {
       {/* Divider Section End*/}
 
       <div className="mx-5 xl:mx-auto max-w-[1200px] border mt-6 rounded-lg py-6 px-10">
-        <div className="w-full flex items-center justify-between">
+        <div className="w-full flex items-center justify-between gap-x-4 md:gap-x-10">
           <div className="max-w-[450px] border-2 rounded-full  py-2 px-4 flex items-center flex-1">
             <input
               type="text"
@@ -145,7 +146,7 @@ const OrderDetails = () => {
               <AiOutlineSearch className="w-5 h-5 text-gray-400" />
             </button>
           </div>
-          <div className="flex gap-x-10">
+          <div className="flex gap-x-4 md:gap-x-10">
             <button className="px-6 py-1 rounded-full text-[#1E633F] hover:text-white bg-white hover:bg-[#1E633F] border-2 border-[#1E633F] transition">
               Add item
             </button>
@@ -157,7 +158,7 @@ const OrderDetails = () => {
 
         {/* Order Product Table Content  Start*/}
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-6">
-          <table className="w-full text-sm text-left  dark:text-gray-400">
+          <table className="w-full text-sm text-left  dark:text-gray-400 min-w-[1100px]">
             <thead className="text-xs capitalize border">
               <tr className="text-center text-gray-600">
                 <th scope="col" className="px-4 py-3 w-[50px]">

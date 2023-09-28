@@ -7,6 +7,7 @@ export const productService = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: AppConstants?.BaseUrl,
   }),
+  tagTypes: ["Products"],
   endpoints: (builder) => ({
     productService: builder.query<
       Product[],
@@ -18,6 +19,7 @@ export const productService = createApi({
         url: `/products${query && `?q=${query}`}`,
         method: "GET",
       }),
+      providesTags: ["Products"],
     }),
     updateProductService: builder.mutation<Product, Partial<Product>>({
       query: ({ id, ...product }) => ({
@@ -25,6 +27,7 @@ export const productService = createApi({
         method: "PUT",
         body: product,
       }),
+      invalidatesTags: ["Products"],
     }),
   }),
 });

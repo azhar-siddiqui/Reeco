@@ -28,7 +28,7 @@
     {
       "productName": "Avocado and milk in ice",
       "brand": "Abukado lamaw",
-      "quantity": 11,
+      "quantity": 10,
       "status": "Accepted",
       "price": 67,
       "discountPrice": 10.43,
@@ -38,7 +38,7 @@
     {
       "productName": "Creamy Avocado Smoothie",
       "brand": "Can Do ‘Cados",
-      "quantity": 10,
+      "quantity": 7,
       "status": "Missing - Urgent",
       "price": 30,
       "discountPrice": 0,
